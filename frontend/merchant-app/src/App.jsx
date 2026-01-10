@@ -1,4 +1,4 @@
-import MerchantRoutes from "./routes/merchantRoutes";
+import MerchantRoutes from "./routes/MerchantAppRoutes";
 
 const App = () => {
   return (
