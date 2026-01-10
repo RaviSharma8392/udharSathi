@@ -1,4 +1,3 @@
-import React from "react";
 import MerchantRoutes from "./routes/merchantRoutes";
 
 const App = () => {
