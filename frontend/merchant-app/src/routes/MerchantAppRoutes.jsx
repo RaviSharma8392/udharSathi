@@ -42,7 +42,6 @@ const MerchantRoutes = () => {
 
       <Route path="add-customer" element={<AddCustomer />} />
       <Route path="customers/:customerId/ledger" element={<CustomerLedger />} />
-      <Route path="customers/:customerId/ledger" element={<CustomerLedger />} />
 
       {/* </Route> */}
 

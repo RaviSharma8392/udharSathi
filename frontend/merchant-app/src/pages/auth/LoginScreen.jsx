@@ -4,7 +4,7 @@ import LanguageSelector from "../../components/languageSelector/LanguageSelector
 import InputField from "../../components/loginScreen/InputField";
 import Logo from "../../components/logo/Logo";
 import { TEXT } from "../../data/languageText";
-import PhoneInputField from "../../components/loginScreen/phoneInputField";
+import PhoneInputField from "../../components/loginScreen/PhoneInputField ";
 
 function LoginScreen() {
   const [language, setLanguage] = useState("hinglish");
