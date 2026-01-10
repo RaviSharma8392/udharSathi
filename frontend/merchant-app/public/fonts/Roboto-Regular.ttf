@@ -1,0 +1,5 @@
+const fontBytes = await fetch("/fonts/Roboto-Regular.ttf").then(res => res.arrayBuffer());
+const fontNormal = await pdfDoc.embedFont(fontBytes);
+
+const fontBoldBytes = await fetch("/fonts/Roboto-Bold.ttf").then(res => res.arrayBuffer());
+const fontBold = await pdfDoc.embedFont(fontBoldBytes);
