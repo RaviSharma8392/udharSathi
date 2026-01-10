@@ -13,7 +13,6 @@ import PublicRoute from "./PublicRoute";
 import AllCustomers from "../pages/customers/AllCustomers";
 import TransactionsHistoryPage from "../pages/transtion/TransactionsHistoryPage";
 import SelectCustomerPage from "../pages/customers/SelectCustomerPage";
-import ShopProfile from "../pages/screen/MerchantAccount";
 import MerchantAccount from "../pages/screen/MerchantAccount";
 
 const MerchantRoutes = () => {
