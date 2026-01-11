@@ -1,38 +1,38 @@
+// src/config/bottomTabs.js
+
 import {
-  HomeIcon,
-  PlusCircleIcon,
-  ClipboardDocumentListIcon,
-  UsersIcon,
-  UserCircleIcon,
-} from "@heroicons/react/24/outline";
+  Home,
+  ClipboardList,
+  PlusCircle,
+  Users,
+  UserCircle,
+} from "lucide-react";
 
 export const bottomTabs = [
   {
     name: "home",
-    icon: HomeIcon,        // classic home
+    icon: Home,
     route: "",
   },
-
   {
     name: "history",
-    icon: ClipboardDocumentListIcon, 
+    icon: ClipboardList,
     route: "/transactions-history",
   },
-
-    {
+  {
     name: "addCustomer",
-    icon: PlusCircleIcon,  
+    icon: PlusCircle,
     center: true,
     route: "select-customers",
   },
   {
     name: "customers",
-    icon: UsersIcon,       // represents multiple customers/users
+    icon: Users,
     route: "/customers",
   },
   {
     name: "account",
-    icon: UserCircleIcon, 
+    icon: UserCircle,
     route: "/account",
   },
 ];
