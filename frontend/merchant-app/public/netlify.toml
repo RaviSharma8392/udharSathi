@@ -1,1 +1,12 @@
-/*    /index.html   200
+[build]
+  # Command to build your Vite app
+  command = "npm run build"
+  
+  # Folder Netlify should deploy
+  publish = "dist"
+
+# SPA routing: any URL should serve index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
